@@ -9,8 +9,8 @@ const playGame = () => {
     const changeDicee2 = document.querySelector('.img2');
 
     // Change the value
-    changeDicee1.src = `/images/dice${randomNumber1}.png`;
-    changeDicee2.src = `/images/dice${randomNumber2}.png`;
+    changeDicee1.src = `images/dice${randomNumber1}.png`;
+    changeDicee2.src = `images/dice${randomNumber2}.png`;
 
     if (randomNumber1 > randomNumber2) {
         document.querySelector('h1').innerHTML = "🚩 Player 1 Wins";
